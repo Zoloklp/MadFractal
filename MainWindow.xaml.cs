@@ -36,7 +36,7 @@ namespace MadFractal
         private uint _function = 1;
         private uint _coloringMethod = 0;
         private uint _useSmooth = 1;
-        private uint _orbitTrapType = 4;
+        private uint _orbitTrapType = 1;
         private Vector3 _paletteBase = new(0.50f, 0.15f, 0.05f);
         private Vector3 _paletteAmplitude = new(0.50f, 0.35f, 0.25f);
         private Vector3 _paletteFrequency = new(1.00f, 0.80f, 0.50f);

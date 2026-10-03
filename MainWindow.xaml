@@ -316,8 +316,8 @@
                                                       Style="{StaticResource SelectorBorderStyle}"
                                                      Padding="1">
                                                  <ComboBox x:Name="OrbitTrapTypeSelector"
-														   SelectedIndex="0"
-														   HorizontalAlignment="Stretch"
+														   SelectedIndex="1"
+														   HorizontalAlignment="Stretch"							   
                                                            SelectionChanged="OrbitTrapTypeSelector_SelectionChanged">
                                                      <ComboBoxItem Content="Точка" />
                                                      <ComboBoxItem Content="Горизонтальная линия" />
