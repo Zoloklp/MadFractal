@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "MadFractal (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "MadFractal (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
