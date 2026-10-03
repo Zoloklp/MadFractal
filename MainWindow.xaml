@@ -309,13 +309,15 @@
                                          </ListBox>
                                      </Border>
                                             <TextBlock Text="Тип Orbit Trap" Margin="0,8,0,0" />
-                                             <Border Height="140"
+                                             <Border
                                                      Background="#202020"
                                                      BorderBrush="#505050"
                                                      BorderThickness="1"
                                                       Style="{StaticResource SelectorBorderStyle}"
                                                      Padding="1">
                                                  <ComboBox x:Name="OrbitTrapTypeSelector"
+														   SelectedIndex="0"
+														   HorizontalAlignment="Stretch"
                                                            SelectionChanged="OrbitTrapTypeSelector_SelectionChanged">
                                                      <ComboBoxItem Content="Точка" />
                                                      <ComboBoxItem Content="Горизонтальная линия" />
